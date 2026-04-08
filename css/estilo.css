@@ -1,0 +1,71 @@
+/* Documento CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 20px 0 0 250px;
+	border: 1px solid #FFFFFF;
+	float: left;
+}
+
+.menu li{
+		position: relative;
+		float: left;
+		border-right: 1px solid #FFFFFF;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #0000FF;
+		height: 28px;
+		line-height: 28px; 
+}
+
+.menu li a{
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+.menu li ul{
+		position: absolute;
+		top: 28px;
+		left: -20px;
+		display: none;
+}
+/*Pega todas as propriedades definidas antes e coloca no display block*/
+.menu li:hover ul,.menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul{
+	display: block;
+}
+
+.menu li ul li{
+	border: 1px solid #FFFFFF;
+	display: block;
+	width: 150px;
+	height: 25px;
+	line-height: 25px;
+}
+
+/* Parágrafos*/
+p{
+	color: #0000FF;
+}
+
+/*Título H1*/
+h1{
+	color: #0000FF;
+}
+
+/* Estilo Link para voltar*/
+.voltar {
+	text-decoration: none;
+}
+
+/* Estilo Link para voltar*/
+.voltar a{
+	text-decoration: none;
+	color: #000077;
+}
